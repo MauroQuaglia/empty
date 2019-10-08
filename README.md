@@ -1,2 +1,1 @@
-# empty
-Simple project to test my gems.
+A simple project for testing my gems.

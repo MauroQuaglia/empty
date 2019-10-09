@@ -1,6 +1,7 @@
 require_relative('../../spec/spec_helper')
 require 'numeris_romanis'
 require 'alpha_math'
+require 'cartesius'
 
 describe 'Empty' do
 
@@ -12,5 +13,9 @@ describe 'Empty' do
   it 'alpha-math' do
     expect(AlphaMath.digital_root(11)).to eq(2)
   end
-  
+
+  it 'cartesius' do
+    expect(Cartesius::Point.new(x: 1, y: 2).x).to eq(1)
+  end
+
 end
